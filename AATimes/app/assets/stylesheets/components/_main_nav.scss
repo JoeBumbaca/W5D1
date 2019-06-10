@@ -1,27 +1,35 @@
 .main-nav {
-
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
 }
 
 .left-nav > ul,
 .right-nav > ul {
-
+  display: flex;
+  text-transform: uppercase;
 }
 
 .left-nav > ul > li {
-
+ margin-left: 1rem;
+ font-family: georgia,"times new roman",times,serif;
+ font-size: 12px;
+ text-transform: uppercase;
 }
 
 .right-nav > ul > li {
-
+  margin-right: 1rem;
+  font-family: georgia,"times new roman",times,serif;
+  font-size: 12px;
 }
 
 .right-nav > ul > li:last-of-type {
-
+  font-size: 15px;
 }
 
 .left-nav > ul > li:hover,
 .right-nav > ul > li:last-of-type:hover {
-
+  color: #f7f7f5;
 }
 
 .left-nav span {
