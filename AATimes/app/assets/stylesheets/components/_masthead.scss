@@ -24,6 +24,10 @@
 	font-size: 10px;
 	color: $dark-gray;
 }
+.language-nav a#first{
+	font-weight: bold;
+}
+
 
 .language-nav ul {
 	display: flex;
@@ -45,6 +49,11 @@
 .masthead-links li {
 	margin-left: 10px;
 	border-right: 1px solid $light-gray;
+	list-style: none;
+}
+
+.masthead-links li#video ~ li:hover {
+	color: #999;
 }
 
 .masthead-links button {
@@ -52,6 +61,10 @@
 	padding: 0px;
 	color: #000;
 	font-weight: normal;
+	border: none;
+}
+
+.masthead-links li#last {
 	border: none;
 }
 
